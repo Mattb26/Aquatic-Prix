@@ -123,6 +123,36 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &16201568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 16201569}
+  m_Layer: 0
+  m_Name: Lanzador1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &16201569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16201568}
+  m_LocalRotation: {x: 0.70710677, y: -0.00012338163, z: 0.00012338163, w: 0.70710677}
+  m_LocalPosition: {x: -0.01659529, y: 0.0024997857, z: 0.013907454}
+  m_LocalScale: {x: 0.004056341, y: 0.0040563415, z: 0.0009841677}
+  m_Children: []
+  m_Father: {fileID: 1631803139}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &599482399
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,7 +167,7 @@ GameObject:
   - component: {fileID: 599482401}
   - component: {fileID: 599482400}
   m_Layer: 0
-  m_Name: a
+  m_Name: Agua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -248,7 +278,7 @@ GameObject:
   - component: {fileID: 752745023}
   - component: {fileID: 752745022}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -324,8 +354,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 752745021}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.056732, y: 2.5711575, z: 497}
-  m_LocalScale: {x: 1000, y: 1000, z: 1}
+  m_LocalPosition: {x: -34.056732, y: 480, z: 497}
+  m_LocalScale: {x: 900, y: 1000, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -344,7 +374,7 @@ GameObject:
   - component: {fileID: 811169569}
   - component: {fileID: 811169568}
   m_Layer: 0
-  m_Name: Cube (9)
+  m_Name: ObjetoCaida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -635,7 +665,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 475a8b737ebfacd439d7f22316c3d72f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.26473
+      value: 3.19
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 475a8b737ebfacd439d7f22316c3d72f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -692,7 +722,7 @@ GameObject:
   - component: {fileID: 1443462880}
   - component: {fileID: 1443462879}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -768,8 +798,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1443462878}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.056732, y: 2.5711575, z: -492}
-  m_LocalScale: {x: 1000, y: 1000, z: 1}
+  m_LocalPosition: {x: -34.056732, y: 480, z: -492}
+  m_LocalScale: {x: 900, y: 1000, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -788,7 +818,7 @@ GameObject:
   - component: {fileID: 1573273406}
   - component: {fileID: 1573273410}
   m_Layer: 0
-  m_Name: Cube (5)
+  m_Name: Tierra2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -899,7 +929,7 @@ GameObject:
   - component: {fileID: 1590295287}
   - component: {fileID: 1590295286}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -975,7 +1005,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590295285}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -497, y: 2.5711575, z: 23}
+  m_LocalPosition: {x: -497, y: 480, z: 5}
   m_LocalScale: {x: 1010, y: 1000, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -994,7 +1024,7 @@ GameObject:
   - component: {fileID: 1602774763}
   - component: {fileID: 1602774762}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1070,7 +1100,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1602774761}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 421, y: 2.5711575, z: 20}
+  m_LocalPosition: {x: 421, y: 480, z: 2}
   m_LocalScale: {x: 1010, y: 1000, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1144,6 +1174,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objetoaclonar: {fileID: 5474249655493296133, guid: 48a0dcdecbc496548a4cd09bc2be3b68, type: 3}
+  puntosalida: {fileID: 16201569}
+  velocidadDisparo: 3
+  tiempoDisparo: 2
 --- !u!1 &1701413714
 GameObject:
   m_ObjectHideFlags: 0
@@ -1158,7 +1191,7 @@ GameObject:
   - component: {fileID: 1701413715}
   - component: {fileID: 1701413719}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: Tierra1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1270,7 +1303,7 @@ GameObject:
   - component: {fileID: 1936336230}
   - component: {fileID: 1936336229}
   m_Layer: 0
-  m_Name: Cube (8)
+  m_Name: ObjetoCaida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1382,7 +1415,7 @@ GameObject:
   - component: {fileID: 1963227915}
   - component: {fileID: 1963227914}
   m_Layer: 0
-  m_Name: Cube (6)
+  m_Name: ObjetoCaida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1509,11 +1542,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9c0c891a58298041b439a220c389acf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.3
+      value: 6.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9c0c891a58298041b439a220c389acf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.2
+      value: -1.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9c0c891a58298041b439a220c389acf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1575,7 +1608,7 @@ GameObject:
   - component: {fileID: 2136142864}
   - component: {fileID: 2136142863}
   m_Layer: 0
-  m_Name: Cube (7)
+  m_Name: ObjetoCaida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

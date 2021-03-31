@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44316578, g: 0.49239057, b: 0.5720805, a: 1}
+  m_IndirectSpecularColor: {r: 0.44316575, g: 0.4923908, b: 0.57208055, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -185,8 +185,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6a6df342b52d24092cf6bbb590c535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveHeight: 3
-  waveFrequency: 0.3
+  waveHeight: 15
+  waveFrequency: 1
   waveLength: 0.75
   waveOriginPosition: {x: 0, y: 0, z: 0}
 --- !u!65 &599482401

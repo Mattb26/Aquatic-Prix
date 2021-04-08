@@ -187,7 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waveHeight: 15
   waveFrequency: 1
-  waveLength: 0.75
+  waveLength: 0
   waveOriginPosition: {x: 0, y: 0, z: 0}
 --- !u!65 &599482401
 BoxCollider:

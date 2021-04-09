@@ -1,0 +1,338 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.867; Version 2009; 64bit' Language: 'es' Physical Memory: 12285 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Dante/Sheps to sea
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50696
+Successfully changed project path to: C:/Users/Dante/Sheps to sea
+C:/Users/Dante/Sheps to sea
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 63.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Dante/Sheps to sea/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 710 (ID=0x128b)
+    Vendor:   
+    VRAM:     984 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006581 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.471 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001649 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.337 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1121 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.8 MB.
+System memory in use after: 57.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1565.
+Total: 3.662700 ms (FindLiveObjects: 0.336000 ms CreateObjectMapping: 0.116700 ms MarkObjects: 3.047700 ms  DeleteObjects: 0.160400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Modelos 3d
+  artifactKey: Guid(c183be86ead9c1845ad87e99369014b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos 3d using Guid(c183be86ead9c1845ad87e99369014b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bb79dc71b5d3e74b1a79d40c2cc850') in 0.021768 seconds
+  Import took 0.025770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.178663 seconds.
+  path: Assets/Modelos 3d/Texturas
+  artifactKey: Guid(1617b339e2bbe1f43ba9df3d3dee31a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos 3d/Texturas using Guid(1617b339e2bbe1f43ba9df3d3dee31a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bef226fe19221259335584bd03bc6d') in 0.020554 seconds
+  Import took 0.025361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.281882 seconds.
+  path: Assets/Modelos 3d/Modelo Bomba.fbx
+  artifactKey: Guid(d4d26fb3d8b9a5545bfb6f07d9779ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos 3d/Modelo Bomba.fbx using Guid(d4d26fb3d8b9a5545bfb6f07d9779ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e4835c0a4cb517322c10745e1f1f5d') in 0.198044 seconds
+  Import took 0.203515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.179425 seconds.
+  path: Assets/Modelos 3d/Modelo Bomba.fbx
+  artifactKey: Guid(d4d26fb3d8b9a5545bfb6f07d9779ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos 3d/Modelo Bomba.fbx using Guid(d4d26fb3d8b9a5545bfb6f07d9779ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dd7023c15c174a27450343503aa980') in 0.444595 seconds
+  Import took 0.451109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.965186 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54454d9ad22ac2cd5feecf09734de153') in 0.057535 seconds
+  Import took 0.062357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.369886 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8659647d405a9efb52f5b8beec2f86') in 0.028978 seconds
+  Import took 0.036709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020031 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8659647d405a9efb52f5b8beec2f86') in 0.038912 seconds
+  Import took 0.046548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.832981 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c73685f7e4692d35af227571975340') in 0.027661 seconds
+  Import took 0.033413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017057 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c73685f7e4692d35af227571975340') in 0.043368 seconds
+  Import took 0.049570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.305545 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13669ad3f6a427e128fc43e8bd4f0cd') in 0.038406 seconds
+  Import took 0.044211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.956614 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae822e2e9dcd137e72e6bf38cd54118') in 0.041955 seconds
+  Import took 0.047175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.999631 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e03e347bda4f8daf5ca2b4a6679263b') in 0.042843 seconds
+  Import took 0.048044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.549257 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6f5bb45c8b9b03ff2405ca55861252') in 0.038037 seconds
+  Import took 0.043043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.770310 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f1ba700029617fabab2b57ef9eb61f') in 0.038618 seconds
+  Import took 0.043986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.452593 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc4585305992eb37cc1717b6b59c15f') in 0.051640 seconds
+  Import took 0.059535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.363174 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701c9f2894e49307b3188f7138c633eb') in 0.048286 seconds
+  Import took 0.056492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.380995 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b5a6cc71723dff7aa3ae6eaad98afa') in 0.046596 seconds
+  Import took 0.053396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.571301 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5491ecb757544680c99d27e71cfa2a44') in 0.049317 seconds
+  Import took 0.054816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.972047 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf5314b8c665ebf72a2a02a83c2c1c2') in 0.041958 seconds
+  Import took 0.046594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.453835 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd8d9dddc8f391dbfc876dd541d3ca3') in 0.048152 seconds
+  Import took 0.053973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.069993 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd547772150d12591eee8c9624e68ea15') in 0.045819 seconds
+  Import took 0.054757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.941013 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44aae5ef52fcbbef48a736f2107f162c') in 0.048133 seconds
+  Import took 0.053300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.178800 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f5536c266dc8129facc060fbff5596') in 0.022803 seconds
+  Import took 0.027512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.743281 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a053eafdf9c87d6fbef68dcdf34bb128') in 0.024004 seconds
+  Import took 0.030200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.851916 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1aebfec026ab4c38dbf1a94a72314b') in 0.030283 seconds
+  Import took 0.035400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.823047 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa24889365e1c5fdb87e7c65644d730') in 0.030927 seconds
+  Import took 0.036608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.460598 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d134747b7838fbcd460ca73b8045a7') in 0.025490 seconds
+  Import took 0.029951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.026283 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5185b18592122ea5dd82dbcc9a0ade48') in 0.029757 seconds
+  Import took 0.046742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.513450 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783308e76c47d14ee2549c6a4f365e37') in 0.026482 seconds
+  Import took 0.032275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.795649 seconds.
+  path: Assets/Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc3d815d8f228cbb46ecc62f84ff37b') in 0.029081 seconds
+  Import took 0.034531 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001842 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.265 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1611.
+Total: 5.566300 ms (FindLiveObjects: 0.342000 ms CreateObjectMapping: 0.123400 ms MarkObjects: 4.990700 ms  DeleteObjects: 0.106900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

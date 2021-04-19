@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Disparo_Bomba : MonoBehaviour
 {
-    public Rigidbody objetoaclonar;
+    public GameObject objetoaclonar;
     public Transform puntosalida;
     public float tiempoDisparo;
     private float inicioDisparo;
@@ -20,8 +20,8 @@ public class Disparo_Bomba : MonoBehaviour
         if (Input.GetButtonDown("Bomba") && Time.time > inicioDisparo)
         {
             inicioDisparo = Time.time + tiempoDisparo;
-            Rigidbody objetoaclonarInstant;
-            objetoaclonarInstant = Instantiate(objetoaclonar, puntosalida.position, Quaternion.identity) as Rigidbody;
+            GameObject objetoaclonarInstant = Instantiate(objetoaclonar, puntosalida.transform.position, puntosalida.transform.rotation) as GameObject;
+            Destroy(objetoaclonarInstant, 5.0f);
         }
 
     }

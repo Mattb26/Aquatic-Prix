@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Disparo : MonoBehaviour
 {
-    public Rigidbody objetoaclonar;
+    public GameObject objetoaclonar;
     public Transform puntosalida;
     public float velocidadDisparo;
     public float tiempoDisparo;
@@ -17,20 +17,18 @@ public class Disparo : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void destruir()
-    {
-        Destroy(gameObject);
-    }
+    
     void Update()
     {
         if( Input.GetButtonDown("Fire1") && Time.time > inicioDisparo) 
         {
             // Instantiate(objetoaclonar, puntosalida.position, puntosalida.rotation)
             inicioDisparo = Time.time + tiempoDisparo;
-            Rigidbody objetoaclonarInstant;
-            objetoaclonarInstant = Instantiate(objetoaclonar, puntosalida.position, Quaternion.identity) as Rigidbody;
-            objetoaclonarInstant.AddForce(puntosalida.forward * 100 * velocidadDisparo);
-            Invoke("destruir", 5);
+
+            GameObject objetoaclonarInstant = Instantiate(objetoaclonar, puntosalida.transform.position, puntosalida.transform.rotation) as GameObject;
+            Rigidbody RBbala = objetoaclonarInstant.GetComponent<Rigidbody>();
+            RBbala.AddForce(puntosalida.forward * 1000 * velocidadDisparo);
+            Destroy(objetoaclonarInstant,4.0f);
 
         }
     }

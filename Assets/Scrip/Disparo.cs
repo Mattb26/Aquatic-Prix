@@ -31,12 +31,5 @@ public class Disparo : MonoBehaviour
             Destroy(objetoaclonarInstant,4.0f);
 
         }
-
-
-
-
     }
-
-
-    
 }

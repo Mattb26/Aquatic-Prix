@@ -21,7 +21,7 @@ public class InstantieRandom : MonoBehaviour
     }
     private void InstantieObject()
     {
-        int n = Random.Range(5, ObjetoInstanciar.Length);
+        int n = Random.Range(0, ObjetoInstanciar.Length);
         Instantiate(ObjetoInstanciar[n], pos.position, ObjetoInstanciar[n].transform.rotation);
     }
 }

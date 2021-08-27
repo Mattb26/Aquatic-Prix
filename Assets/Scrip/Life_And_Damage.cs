@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
 
 public class Life_And_Damage : MonoBehaviour
 {
@@ -17,5 +18,21 @@ public class Life_And_Damage : MonoBehaviour
     {
         vida -= cantidad;
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
     
+        if (other.tag == "HealthPowerUp")
+        {
+            
+            vida = vida + 100.0f;
+            Destroy(other.gameObject);
+        }
+
+
+    }
+
+
+
+
 }

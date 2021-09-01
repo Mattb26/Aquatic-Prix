@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Disparo : MonoBehaviour
+public class Disparo_simple : MonoBehaviour
 {
     public GameObject objetoaclonar;
     public Transform puntosalida;
@@ -28,7 +28,7 @@ public class Disparo : MonoBehaviour
             GameObject objetoaclonarInstant = Instantiate(objetoaclonar, puntosalida.transform.position, puntosalida.transform.rotation) as GameObject;
             Rigidbody RBbala = objetoaclonarInstant.GetComponent<Rigidbody>();
             RBbala.AddForce(puntosalida.forward * 1000 * velocidadDisparo);
-            Destroy(objetoaclonarInstant,4.0f);
+            Destroy(objetoaclonarInstant,3.0f);
 
         }
     }

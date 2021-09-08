@@ -15,11 +15,11 @@ C:/Users/Dante/Documents/GitHub/Aquatic-Prix
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56706
+54652
 Successfully changed project path to: C:/Users/Dante/Documents/GitHub/Aquatic-Prix
 C:/Users/Dante/Documents/GitHub/Aquatic-Prix
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 19.45 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 19.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.5f1 (3737af19df53)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,171 +35,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001523 seconds.
+Registered in 0.001485 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 20.06 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 20.14 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.878 seconds
+- Completed reload, in  0.867 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000616 seconds.
+Registered in 0.000435 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.627 seconds
+- Completed reload, in  0.617 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1173 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 66.4 MB.
 System memory in use after: 66.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1638.
-Total: 1.569900 ms (FindLiveObjects: 0.108300 ms CreateObjectMapping: 0.025200 ms MarkObjects: 1.280000 ms  DeleteObjects: 0.155700 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1635.
+Total: 1.551100 ms (FindLiveObjects: 0.103600 ms CreateObjectMapping: 0.025200 ms MarkObjects: 1.262800 ms  DeleteObjects: 0.158900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Character Selection Menu And Scene
-  artifactKey: Guid(5242c2a92e552a0438d5d56561c51d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Selection Menu And Scene using Guid(5242c2a92e552a0438d5d56561c51d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa8ba8ccc1bc1984da697ba9e7f023d') in 0.007109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.462747 seconds.
-  path: Assets/Character Selection Menu And Scene/Character Selection Scene.unity
-  artifactKey: Guid(3d4d341b425d97f40888d18362b84685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Selection Menu And Scene/Character Selection Scene.unity using Guid(3d4d341b425d97f40888d18362b84685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a9298239be19d02f88b79dd831d0b4') in 0.011628 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.222894 seconds.
-  path: Assets/Character Selection Menu And Scene/Character Selection Menu.unity
-  artifactKey: Guid(d88da844d07162f428e89ef6f1c78bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Selection Menu And Scene/Character Selection Menu.unity using Guid(d88da844d07162f428e89ef6f1c78bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599621f6f153fe4cc77e9077385c8995') in 0.005492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 261.629084 seconds.
-  path: Assets/Character Selection Menu And Scene/Prefabs
-  artifactKey: Guid(b0aa193fd5806074f89a1532c3c12449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Selection Menu And Scene/Prefabs using Guid(b0aa193fd5806074f89a1532c3c12449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2325e3b9f402bf9fd893b80e88b72fef') in 0.005316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.081696 seconds.
-  path: Assets/Character Selection Menu And Scene/Prefabs/Boy.prefab
-  artifactKey: Guid(b8e5410306070e94388cd8f5e20116e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Selection Menu And Scene/Prefabs/Boy.prefab using Guid(b8e5410306070e94388cd8f5e20116e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1da5a04c6079f0d35a3399ce8e82436') in 0.077601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Character Selection Menu And Scene/Prefabs/Dino.prefab
-  artifactKey: Guid(ceda616fbe5950a4b9a42850d2aab2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Selection Menu And Scene/Prefabs/Dino.prefab using Guid(ceda616fbe5950a4b9a42850d2aab2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24cdb9d11d49c59eee4ff89565fde063') in 0.012862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Character Selection Menu And Scene/Prefabs/Girl.prefab
-  artifactKey: Guid(14c0b763e10b26442b72be33750bbcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Selection Menu And Scene/Prefabs/Girl.prefab using Guid(14c0b763e10b26442b72be33750bbcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef06384e7a07df254e5492a7a8a6744') in 0.012179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.073824 seconds.
-  path: Assets/Character Selection Menu And Scene/Assets
-  artifactKey: Guid(39baefaee5c6949409ab7d42d7e29fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Selection Menu And Scene/Assets using Guid(39baefaee5c6949409ab7d42d7e29fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105672485f96ae49907fcb5e4c1f82be') in 0.005417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.054612 seconds.
-  path: Assets/Character Selection Menu And Scene/Assets/_.png
-  artifactKey: Guid(03dda2889bb621e4985c911bc096f63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Selection Menu And Scene/Assets/_.png using Guid(03dda2889bb621e4985c911bc096f63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5bcbca5f30706d136412d98ea63f8e') in 0.044024 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Character Selection Menu And Scene/Assets/_ext.png
-  artifactKey: Guid(5ffdb3797afdf8f43bc4bc60a6e5535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Selection Menu And Scene/Assets/_ext.png using Guid(5ffdb3797afdf8f43bc4bc60a6e5535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979b992d9ae1fa82e869e2fc0de819d5') in 0.010449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Character Selection Menu And Scene/Assets/_G.png
-  artifactKey: Guid(fde71b88203f26c4a8e19bde4c51f43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Selection Menu And Scene/Assets/_G.png using Guid(fde71b88203f26c4a8e19bde4c51f43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46cce4dfe2bbfb7a6c9161cfc7ad3ef') in 0.023271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Character Selection Menu And Scene/Assets/boy-spriteseet.png
-  artifactKey: Guid(5012312492d2dd1498dbd95af1154004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Selection Menu And Scene/Assets/boy-spriteseet.png using Guid(5012312492d2dd1498dbd95af1154004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e079c0d5ef261347d8243a90c271fb77') in 0.068987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Character Selection Menu And Scene/Assets/girl-spriteseet.png
-  artifactKey: Guid(332ab1c6ce165194e9e1b2466b63614f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Selection Menu And Scene/Assets/girl-spriteseet.png using Guid(332ab1c6ce165194e9e1b2466b63614f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805630cdfd28f388c22fab6f7293a775') in 0.081767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Character Selection Menu And Scene/Assets/_tart.png
-  artifactKey: Guid(02736ebd9f003b14a8ad8b9c660df485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Selection Menu And Scene/Assets/_tart.png using Guid(02736ebd9f003b14a8ad8b9c660df485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478343076e130908f8079c72bb9266a8') in 0.010343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Character Selection Menu And Scene/Assets/dino-spritesheet.png
-  artifactKey: Guid(a8ebf0cb1d29f4842b69cf2c234db471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Selection Menu And Scene/Assets/dino-spritesheet.png using Guid(a8ebf0cb1d29f4842b69cf2c234db471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c35f090e62c2e165865cf9a4144d815') in 0.057057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.946218 seconds.
-  path: Assets/Menu/Prueba.unity
-  artifactKey: Guid(77378ef6bc32a3740990e539025cdd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/Prueba.unity using Guid(77378ef6bc32a3740990e539025cdd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd0f150df6081d6877280451723b773') in 0.004906 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000450 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.589 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1165 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.1 MB.
-System memory in use after: 77.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1821.
-Total: 1.695600 ms (FindLiveObjects: 0.132500 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.381600 ms  DeleteObjects: 0.147500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000424 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.570 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1158 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.8 MB.
-System memory in use after: 77.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1824.
-Total: 1.594600 ms (FindLiveObjects: 0.120500 ms CreateObjectMapping: 0.026200 ms MarkObjects: 1.281800 ms  DeleteObjects: 0.165200 ms)
-
+  path: Assets/Scenes/Escena Prueba.unity
+  artifactKey: Guid(a0ed8296ac36e204080fae82e50cd728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena Prueba.unity using Guid(a0ed8296ac36e204080fae82e50cd728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5760a2c5cde6cfd8e6b7e28cb4de78b') in 0.013210 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -33,29 +33,32 @@ public class shipsMove : MonoBehaviour
 
 
 
-        if (boosting)
-        {
-            powerupboostTimer += Time.deltaTime;
-            if(powerupboostTimer >= 10)
-            {
-                playerspeed = 25;
-                powerupboostTimer = 0;
-                boosting = false;
-            }
-        }
+        //if (boosting)
+        //{
+        //    powerupboostTimer += Time.deltaTime;
+        //    if (powerupboostTimer >= 10)
+        //    {
+        //        playerspeed = 25;
+        //        powerupboostTimer = 0;
+        //        boosting = false;
+        //    }
+        //}
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "SpeedPowerUp")
-        {
-            boosting = true;
-            playerspeed = (playerspeed * 4);
-            Destroy(other.gameObject);
-        }
+    //void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.tag == "SpeedPowerUp")
+    //    {
+            
+
+    //            boosting = true;
+    //            playerspeed = (playerspeed * 4);
+    //            Destroy(other.gameObject);
+            
+    //    }
 
         
-    }
+    //}
     
 
 

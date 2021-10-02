@@ -4,9 +4,9 @@ using UnityEngine;
 using System.IO;
 
 
-public class shipsMove : MonoBehaviour
+public class ShipMovement : MonoBehaviour
 {
-   
+
     private CharacterController player;
     public float playerspeed = 25.0f;
     private float powerupboostTimer;
@@ -17,7 +17,7 @@ public class shipsMove : MonoBehaviour
     void Start()
     {
         player = GetComponent<CharacterController>();
-       
+
         powerupboostTimer = 0f;
         boosting = false;
     }
@@ -26,9 +26,12 @@ public class shipsMove : MonoBehaviour
     void Update()
     {
         x = Input.GetAxis("Horizontal");
-        y = -Input.GetAxis("Vertical");
-        transform.Rotate(x * Time.deltaTime * playerrotation, 0, 0);
+        y = Input.GetAxis("Vertical");
+
+
         transform.Translate(0, 0, y * Time.deltaTime * playerspeed);
+        transform.Rotate(0, x * Time.deltaTime * playerrotation, 0, 0);
+
 
 
 
@@ -36,7 +39,7 @@ public class shipsMove : MonoBehaviour
         if (boosting)
         {
             powerupboostTimer += Time.deltaTime;
-            if(powerupboostTimer >= 10)
+            if (powerupboostTimer >= 10)
             {
                 playerspeed = 25;
                 powerupboostTimer = 0;
@@ -54,23 +57,22 @@ public class shipsMove : MonoBehaviour
             Destroy(other.gameObject);
         }
 
-        
+
     }
-    
+
 
 
 }
 
 
-    // void OnTriggerEnter(Collider other)
+// void OnTriggerEnter(Collider other)
 //    {
-    //if (other.tag == "SpeedPowerUp")
-    //    boosting = true;
-    //playerspeed = 100.0f;
-   // Destroy(other.gameObject);
-   //Este destruye todo basicamente, inclusive el disparo del jugador jaja
+//if (other.tag == "SpeedPowerUp")
+//    boosting = true;
+//playerspeed = 100.0f;
+// Destroy(other.gameObject);
+//Este destruye todo basicamente, inclusive el disparo del jugador jaja
 //   }
-
 
 
 

@@ -26,8 +26,8 @@ public class shipsMove : MonoBehaviour
     void Update()
     {
         x = Input.GetAxis("Horizontal");
-        y = -Input.GetAxis("Vertical");
-        transform.Rotate(x * Time.deltaTime * playerrotation, 0, 0);
+        y = Input.GetAxis("Vertical");
+        transform.Rotate(0, x * Time.deltaTime * playerrotation, 0);
         transform.Translate(0, 0, y * Time.deltaTime * playerspeed);
 
 

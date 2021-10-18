@@ -11,7 +11,7 @@ public class InstantieRandom : MonoBehaviour
     void Start()
     {
         InstantieObject();
-
+        Destroy(pos.gameObject);
     }
 
     // Update is called once per frame

@@ -29,7 +29,6 @@ public class Disparo_simple : MonoBehaviour
             Rigidbody RBbala = objetoaclonarInstant.GetComponent<Rigidbody>();
             RBbala.AddForce(puntosalida.forward * 1000 * velocidadDisparo);
             Destroy(objetoaclonarInstant,3.0f);
-
         }
     }
 }

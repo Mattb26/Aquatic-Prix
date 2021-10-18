@@ -5,8 +5,8 @@ public class WaterFloat : MonoBehaviour
     public Vector3 MovingDistances = new Vector3(0.002f, 0.001f, 0f);     //up and down distance of the wave
     public float speed = 1f;                                              //the speed of up and down
 
-    public Vector3 WaveRotations;                                         //object side rotations
-    public float WaveRotationsSpeed = 0.3f;                               //speed of rotations
+    //public Vector3 WaveRotations;                                         //object side rotations
+    //public float WaveRotationsSpeed = 0.3f;                               //speed of rotations
 
     public Vector3 AxisOffsetSpeed;                                       //speed of moving object along an axis
 
@@ -30,11 +30,11 @@ public class WaterFloat : MonoBehaviour
         );
         
         //change rotations
-        transform.rotation = Quaternion.Euler(
-            actualPos.rotation.x + WaveRotations.x * Mathf.Sin(Time.time * WaveRotationsSpeed), 
-            actualPos.rotation.y + WaveRotations.y * Mathf.Sin(Time.time * WaveRotationsSpeed), 
-            actualPos.rotation.z + WaveRotations.z * Mathf.Sin(Time.time * WaveRotationsSpeed)
-        );
+        //transform.rotation = Quaternion.Euler(
+        //    actualPos.rotation.x + WaveRotations.x * Mathf.Sin(Time.time * WaveRotationsSpeed), 
+        //    actualPos.rotation.y + WaveRotations.y * Mathf.Sin(Time.time * WaveRotationsSpeed), 
+        //    actualPos.rotation.z + WaveRotations.z * Mathf.Sin(Time.time * WaveRotationsSpeed)
+        //);
 
         //inject the changes
         transform.position = mov;

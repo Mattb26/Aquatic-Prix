@@ -9,7 +9,7 @@ public class SimpleMove : MonoBehaviour
     
     public float duracion;
 
-    void Update()
+    void FixedUpdate()
     {
         
         CharacterController controller = GetComponent<CharacterController>();

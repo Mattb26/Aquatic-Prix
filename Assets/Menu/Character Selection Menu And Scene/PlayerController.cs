@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public bool enabled;
+    public bool enabledd;
     public float playerSpeed;
     Animator animator;
     SpriteRenderer sprite;
@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (enabled)
+        if (enabledd)
         {
             float input = Input.GetAxis("Horizontal");
             if (input > 0.5f)

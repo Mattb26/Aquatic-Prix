@@ -46,16 +46,16 @@ public class SpawnScript : MonoBehaviour
     {
        
 
-        if ((GameObject.FindGameObjectsWithTag("SpeedPowerUp").Length < 2) && (GameObject.FindGameObjectsWithTag("HealthPowerUp").Length < 2))
-        {
-            for (int i = 0; i < spawnLocations.Length; i++)
-            {
+   //     if ((GameObject.FindGameObjectsWithTag("SpeedPowerUp").Length < 2) && (GameObject.FindGameObjectsWithTag("HealthPowerUp").Length < 2))
+   //     {
+    //        for (int i = 0; i < spawnLocations.Length; i++)
+    //        {
 
-                Instantiate(spawnObjects[Random.Range(0, spawnObjects.Length)], spawnLocations[i]);
+      //          Instantiate(spawnObjects[Random.Range(0, spawnObjects.Length)], spawnLocations[i]);
 
-            }
+      //      }
 
-        }
+      //  }
 
 
 

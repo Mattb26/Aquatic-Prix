@@ -126,8 +126,16 @@ public class IA_Enemigo_Disparo : MonoBehaviour
                 Rigidbody RBbala = objetoaclonarInstant.GetComponent<Rigidbody>();
                 RBbala.AddForce(weapon.forward * 1000 * velocidadDisparo);
                 Destroy(objetoaclonarInstant, 3.0f);
+
+                if (this.gameObject.tag == "Enemy")
+            {
+            objetoaclonarInstant.gameObject.tag = "EnemyBullet"; 
             }
+            }
+            
         }
+ 
+
     }
 
     void RutinaEnemigo()

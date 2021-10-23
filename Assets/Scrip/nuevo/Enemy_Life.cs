@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 
-public class Life_And_Damage : MonoBehaviour
+public class Enemy_Life : MonoBehaviour
 {
     public float vida;
     public float vidaMaxima;
@@ -56,9 +56,9 @@ public class Life_And_Damage : MonoBehaviour
 
 private void OnTriggerEnter(Collider other) {
 {
-if (this.gameObject.tag == "Player")
+if (this.gameObject.tag == "Enemy")
 {
-if ((other.gameObject.tag == "BulletPlayer2") || (other.gameObject.tag == "BulletPlayer3") || (other.gameObject.tag == "BulletPlayer4") || (other.gameObject.tag == "EnemyBullet"))
+if ((other.gameObject.tag == "BulletPlayer1") || (other.gameObject.tag == "BulletPlayer2") || (other.gameObject.tag == "BulletPlayer3") || (other.gameObject.tag == "BulletPlayer4"))
 {
 if (escudo == 0) {
 RestarVida(DamageBullet);
@@ -122,82 +122,6 @@ RestarVida(DamageIsland);
 
 
 
-/////
-
-if (this.gameObject.tag == "Player2")
-{
-if ((other.gameObject.tag == "BulletPlayer1") || (other.gameObject.tag == "BulletPlayer3") || (other.gameObject.tag == "BulletPlayer4") || (other.gameObject.tag == "EnemyBullet"))
-{
-if (escudo == 0) {
-RestarVida(DamageBullet);
- }
-     if ((DamageBullet > escudo && escudo > 0)) 
-     {
-           float NewEscudo = 0;
-           NewEscudo = DamageBullet - escudo;
-           RestarVida(NewEscudo);
-           escudo = 0;
-           NewEscudo = 0;    
-     }
-    else if (DamageBullet <= escudo)
-{ 
-    RestarEscudo(DamageBullet);
-}
- }
-}
-
-
-/////
-
-if (this.gameObject.tag == "Player3")
-{
-if ((other.gameObject.tag == "BulletPlayer1") || (other.gameObject.tag == "BulletPlayer2") || (other.gameObject.tag == "BulletPlayer4") || (other.gameObject.tag == "EnemyBullet"))
-{
-if (escudo == 0) {
-RestarVida(DamageBullet);
- }
-     if ((DamageBullet > escudo && escudo > 0)) 
-     {
-           float NewEscudo = 0;
-           NewEscudo = DamageBullet - escudo;
-           RestarVida(NewEscudo);
-           escudo = 0;
-           NewEscudo = 0;    
-     }
-    else if (DamageBullet <= escudo)
-{ 
-    RestarEscudo(DamageBullet);
-}
- }
-}
-
-/////
-
-if (this.gameObject.tag == "Player4")
-{
-if ((other.gameObject.tag == "BulletPlayer1") || (other.gameObject.tag == "BulletPlayer2") || (other.gameObject.tag == "BulletPlayer3") || (other.gameObject.tag == "EnemyBullet"))
-{
-if (escudo == 0) {
-RestarVida(DamageBullet);
- }
-     if ((DamageBullet > escudo && escudo > 0)) 
-     {
-           float NewEscudo = 0;
-           NewEscudo = DamageBullet - escudo;
-           RestarVida(NewEscudo);
-           escudo = 0;
-           NewEscudo = 0;    
-     }
-    else if (DamageBullet <= escudo)
-{ 
-    RestarEscudo(DamageBullet);
-}
- }
-}
-
-
-
- /////
 
 }
 

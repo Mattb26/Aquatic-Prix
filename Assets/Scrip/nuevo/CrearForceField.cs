@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Disparo_simple : MonoBehaviour
+public class CrearForceField : MonoBehaviour
 {
     public GameObject objetoaclonar;
     public Transform puntosalida;
@@ -23,8 +23,8 @@ public class Disparo_simple : MonoBehaviour
 
             GameObject objetoaclonarInstant = Instantiate( objetoaclonar, puntosalida.transform.position, puntosalida.transform.rotation) as GameObject;
             Rigidbody RBbala = objetoaclonarInstant.GetComponent<Rigidbody>();
-            RBbala.AddForce(puntosalida.forward * 1000 * velocidadDisparo);
-            Destroy(objetoaclonarInstant,3.0f);
+            
+            Destroy(objetoaclonarInstant,16.0f);
 
 
             if (this.gameObject.tag == "Player")
@@ -50,7 +50,10 @@ public class Disparo_simple : MonoBehaviour
             objetoaclonarInstant.gameObject.tag = "BulletPlayer4"; 
             } 
             
-           
+            if (this.gameObject.tag == "Enemy")
+            {
+            objetoaclonarInstant.gameObject.tag = "EnemyBullet"; 
+            }
 
 
  

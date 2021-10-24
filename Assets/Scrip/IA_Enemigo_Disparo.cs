@@ -80,6 +80,7 @@ public class IA_Enemigo_Disparo : MonoBehaviour
         }
         else if (ataque == true)
         {
+
             agent.SetDestination(GameObject.FindGameObjectWithTag("Player").transform.position);
             if (Vector3.Distance(GameObject.FindGameObjectWithTag("Player").transform.position, transform.position) > distancePlayer)
             {

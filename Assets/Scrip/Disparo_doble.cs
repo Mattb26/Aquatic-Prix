@@ -30,6 +30,29 @@ public class Disparo_doble : MonoBehaviour
             RBbala.AddForce(puntosalida.forward * 1000 * velocidadDisparo);
             Destroy(objetoaclonarInstant, 3.0f);
 
+            if (this.gameObject.tag == "Player")
+            {
+                objetoaclonarInstant.gameObject.tag = "BulletPlayer1";
+            }
+
+
+            if (this.gameObject.tag == "Player2")
+            {
+                objetoaclonarInstant.gameObject.tag = "BulletPlayer2";
+            }
+
+
+            if (this.gameObject.tag == "Player3")
+            {
+                objetoaclonarInstant.gameObject.tag = "BulletPlayer3";
+            }
+
+
+            if (this.gameObject.tag == "Player4")
+            {
+                objetoaclonarInstant.gameObject.tag = "BulletPlayer4";
+            }
+
         }
         else
         {
@@ -41,6 +64,29 @@ public class Disparo_doble : MonoBehaviour
                 Rigidbody RBbala = objetoaclonarInstant.GetComponent<Rigidbody>();
                 RBbala.AddForce(puntosalida2.forward * 1000 * velocidadDisparo);
                 Destroy(objetoaclonarInstant, 3.0f);
+
+                if (this.gameObject.tag == "Player")
+                {
+                    objetoaclonarInstant.gameObject.tag = "BulletPlayer1";
+                }
+
+
+                if (this.gameObject.tag == "Player2")
+                {
+                    objetoaclonarInstant.gameObject.tag = "BulletPlayer2";
+                }
+
+
+                if (this.gameObject.tag == "Player3")
+                {
+                    objetoaclonarInstant.gameObject.tag = "BulletPlayer3";
+                }
+
+
+                if (this.gameObject.tag == "Player4")
+                {
+                    objetoaclonarInstant.gameObject.tag = "BulletPlayer4";
+                }
             }
         }
     }

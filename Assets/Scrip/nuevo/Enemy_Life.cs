@@ -6,19 +6,20 @@ using System.IO;
 
 public class Enemy_Life : MonoBehaviour
 {
+    [Header("Vida y escudo")]
     public float vida;
     public float vidaMaxima;
-   
     public float escudo;
     public float escudoMaximo;
-     public int DamageIsland;
+    [Header("Daños")]
+    public int DamageIsland;
     public int DamageBullet;
     public int DamageMissile;
-
-     
+    [Header("Barra de UI")]
     public Image barravida;
      
     public Image barraescudo;
+
    
 
    // private Invulnerable invulnerable;

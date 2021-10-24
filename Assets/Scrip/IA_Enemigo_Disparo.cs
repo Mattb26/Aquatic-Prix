@@ -80,31 +80,38 @@ public class IA_Enemigo_Disparo : MonoBehaviour
         }
         else if (ataque == true)
         {
-
-            agent.SetDestination(GameObject.FindGameObjectWithTag("Player").transform.position);
-            if (Vector3.Distance(GameObject.FindGameObjectWithTag("Player").transform.position, transform.position) > distancePlayer)
-            {
-                Estado = 1;
-            }
-            //El siguiente codigo funciona por localizacion por Objetivo
-            //Vector3 posNoRot = new Vector3(target.position.x, 0.0f, target.position.z);
-            //transform.LookAt(posNoRot);
-            //distanceToTarget = Vector3.Distance(transform.position, target.position);
-            //if (Vector3.Distance(target.transform.position, transform.position) < distancePlayer)
-            //{
-            //    agent.SetDestination(target.transform.position);
-            //}
-            //ShootControl();
-            //Vector3 posNoRot = new Vector3(target.position.x, 0.0f, target.position.z);
-            //El siguiente codigo funciona por localizacion por tag
-            Vector3 posNoRot = new Vector3(GameObject.FindGameObjectWithTag("Player").transform.position.x, 0.0f, GameObject.FindGameObjectWithTag("Player").transform.position.z);
-            transform.LookAt(posNoRot);
-            distanceToTarget = Vector3.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position);
-            if (Vector3.Distance(GameObject.FindGameObjectWithTag("Player").transform.position, transform.position) < distancePlayer)
+            try
             {
                 agent.SetDestination(GameObject.FindGameObjectWithTag("Player").transform.position);
+                if (Vector3.Distance(GameObject.FindGameObjectWithTag("Player").transform.position, transform.position) > distancePlayer)
+                {
+                    Estado = 1;
+                }
+                //El siguiente codigo funciona por localizacion por Objetivo
+                //Vector3 posNoRot = new Vector3(target.position.x, 0.0f, target.position.z);
+                //transform.LookAt(posNoRot);
+                //distanceToTarget = Vector3.Distance(transform.position, target.position);
+                //if (Vector3.Distance(target.transform.position, transform.position) < distancePlayer)
+                //{
+                //    agent.SetDestination(target.transform.position);
+                //}
+                //ShootControl();
+                //Vector3 posNoRot = new Vector3(target.position.x, 0.0f, target.position.z);
+                //El siguiente codigo funciona por localizacion por tag
+                Vector3 posNoRot = new Vector3(GameObject.FindGameObjectWithTag("Player").transform.position.x, 0.0f, GameObject.FindGameObjectWithTag("Player").transform.position.z);
+                transform.LookAt(posNoRot);
+                distanceToTarget = Vector3.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position);
+                if (Vector3.Distance(GameObject.FindGameObjectWithTag("Player").transform.position, transform.position) < distancePlayer)
+                {
+                    agent.SetDestination(GameObject.FindGameObjectWithTag("Player").transform.position);
+                }
+                ShootControl();
             }
-            ShootControl();
+            catch
+            {
+
+            }
+            
         }
 
 

@@ -12,6 +12,7 @@ public class SimpleMove : MonoBehaviour
     void FixedUpdate()
     {
         
+
         CharacterController controller = GetComponent<CharacterController>();
 
         // Rotate around y - axis

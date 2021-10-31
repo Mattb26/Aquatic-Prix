@@ -5,7 +5,7 @@ using UnityEngine;
 public class Disparo_simple : MonoBehaviour
 {
     public GameObject objetoaclonar;
-    public GameObject sonidoDisparo;
+    
     public Transform puntosalida;
     public float velocidadDisparo;
     public float tiempoDisparo;
@@ -19,7 +19,7 @@ public class Disparo_simple : MonoBehaviour
     {
         if( Input.GetButtonDown("Fire1") && Time.time > inicioDisparo) 
         {
-            Instantiate(sonidoDisparo);
+           
             // Instantiate(objetoaclonar, puntosalida.position, puntosalida.rotation, Transform parent)
             inicioDisparo = Time.time + tiempoDisparo;
 

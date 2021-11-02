@@ -17,16 +17,25 @@ public class IA_Enemiga : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         //if (Vector3.Distance(Target.transform.position, transform.position) < distance)
-        if (Vector3.Distance(GameObject.FindGameObjectWithTag("Player").transform.position, transform.position) <= distance)
+        try
         {
-            //agent.SetDestination(Target.transform.position);
-            agent.SetDestination(GameObject.FindGameObjectWithTag("Player").transform.position);
+            if (Vector3.Distance(GameObject.FindGameObjectWithTag("Player").transform.position, transform.position) <= distance)
+            {
+                //agent.SetDestination(Target.transform.position);
+                agent.SetDestination(GameObject.FindGameObjectWithTag("Player").transform.position);
+            }
+            else
+            {
+                agent.speed = 0;
+            }
         }
-        else
+        catch
         {
-            agent.speed = 0;
+
         }
+
+        
     }
 }

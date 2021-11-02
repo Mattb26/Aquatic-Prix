@@ -56,7 +56,7 @@ public class Spawns_Enemies : MonoBehaviour
         
             if (n_enemigos < enemigosAGenerar)
         {
-            int i = Random.Range(0, 3);
+            int i = Random.Range(0, 7);
             
             Instantiate(enemigo, spawn_point[i].position, transform.rotation, transform.parent = TheNewParent.transform);
             //enemigo.transform.parent = TheNewParent.transform

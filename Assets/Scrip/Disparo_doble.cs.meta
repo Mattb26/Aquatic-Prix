@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 510268be452502b4bb441ec166763a8a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - objetoaclonar: {fileID: 5474249655493296133, guid: 48a0dcdecbc496548a4cd09bc2be3b68,
+      type: 3}
+  - puntosalida: {instanceID: 0}
+  - puntosalida2: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -31,7 +31,7 @@ public class IA_Enemigo_Disparo : MonoBehaviour
     public int Estado = 1;
     NavMeshAgent agent;
 
-    
+        private GameObject FindGameObjectWithTagg;
 
 
 
@@ -43,6 +43,8 @@ public class IA_Enemigo_Disparo : MonoBehaviour
 
     void Update()
     {
+        FindGameObjectWithTagg = (GameObject.FindGameObjectWithTag("Player"));
+        if (FindGameObjectWithTagg.layer == 0)  {
         //tiempo += 1;
         if(Estado == 1)
         {
@@ -80,8 +82,7 @@ public class IA_Enemigo_Disparo : MonoBehaviour
         }
         else if (ataque == true)
         {
-            try
-            {
+            
                 agent.SetDestination(GameObject.FindGameObjectWithTag("Player").transform.position);
                 if (Vector3.Distance(GameObject.FindGameObjectWithTag("Player").transform.position, transform.position) > distancePlayer)
                 {
@@ -107,10 +108,7 @@ public class IA_Enemigo_Disparo : MonoBehaviour
                 }
                 ShootControl();
             }
-            catch
-            {
-
-            }
+            
             
         }
 

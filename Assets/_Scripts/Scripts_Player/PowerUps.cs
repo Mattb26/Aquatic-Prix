@@ -26,7 +26,8 @@ private SimpleMove simpleeMovee; //Make a timer for 18 seconds or so
 //-------------------------------------------------------------------------------------------//
 //- PowerUpInvisible
 public float DuracionInvisible;
-private BetterInvi invii;
+private cambiarmateriales camb;
+private devolvermateriales devo;
 //-------------------------------------------------------------------------------------------//
 //- PowerUpForceShield
 public float DuracionForceShield;
@@ -39,7 +40,8 @@ private CrearForceField forcefild;
 {
 lifee_And_Damage = ChooseAShip.GetComponent<Life_And_Damage>(); //lifee_And_Damage (a variable) = ChooseAShip(Own Ship).GetComponent(from that gameobject)called<Life_And_Damage>();
 simpleeMovee = ChooseAShip.GetComponent<SimpleMove>();
-invii = ChooseAShip.GetComponent<BetterInvi>();
+camb = ChooseAShip.GetComponent<cambiarmateriales>();
+devo = ChooseAShip.GetComponent<devolvermateriales>();
 forcefild = ChooseAShip.GetComponent<CrearForceField>();
  
 
@@ -76,7 +78,6 @@ if (this.gameObject.tag == "Player4")
 
 void Start()
     {   
-ChooseAShip.GetComponent<BetterInvi>();
 
 
     }
@@ -125,10 +126,12 @@ if (other.tag == "SpeedPowerUp")
 
 if (other.tag == "InvisiblePowerUp")
 {
-        invii.cambioDeLayerHaciaInvisible();
+        
         Destroy(other.gameObject);
 
-       
+                devo.tiempoDuracion = DuracionInvisible;
+       camb.cambiar();
+       devo.dothething();
 
 
     //    invii.duracionInvisibilidad = invii.duracionInvisibilidad + DuracionInvisible;

@@ -1,0 +1,1353 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.5f1 (3737af19df53) revision 3618735'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16366 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Github/Aquatic-Prix
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56793
+Successfully changed project path to: E:/Github/Aquatic-Prix
+E:/Github/Aquatic-Prix
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 52.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.5f1 (3737af19df53)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Github/Aquatic-Prix/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 250 Series (ID=0x682b)
+    Vendor:   ATI
+    VRAM:     2027 MB
+    Driver:   27.20.20903.8001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005192 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 52.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.767 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001846 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.655 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.1 MB.
+System memory in use after: 68.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1666.
+Total: 3.319200 ms (FindLiveObjects: 0.229500 ms CreateObjectMapping: 0.095100 ms MarkObjects: 2.538000 ms  DeleteObjects: 0.454400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/_Scripts/Scripts_Invi
+  artifactKey: Guid(18bbec53e738ae8489ef0299de6504f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Invi using Guid(18bbec53e738ae8489ef0299de6504f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93803953b1cb555f437fea0d34e07404') in 0.019707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000753 seconds.
+  path: Assets/_Scripts/Scripts_Invi/devolvermateriales.cs
+  artifactKey: Guid(db93475172ce1bd47a4a50f444c80455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Invi/devolvermateriales.cs using Guid(db93475172ce1bd47a4a50f444c80455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c8e89ab4ca9739f67a07671308072c') in 0.059088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/_Scripts/Scripts_Invi/cambiarmateriales.cs
+  artifactKey: Guid(16307a2c57f145c41a3b1cf1db669152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Invi/cambiarmateriales.cs using Guid(16307a2c57f145c41a3b1cf1db669152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819c7512931420ecf2f0be61978d91c8') in 0.031213 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001059 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.887 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1669.
+Total: 3.275900 ms (FindLiveObjects: 0.245200 ms CreateObjectMapping: 0.093800 ms MarkObjects: 2.526200 ms  DeleteObjects: 0.409100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.205168 seconds.
+  path: Assets/_Scripts/Scripts_Invi/cambiarmateriales.cs
+  artifactKey: Guid(16307a2c57f145c41a3b1cf1db669152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Invi/cambiarmateriales.cs using Guid(16307a2c57f145c41a3b1cf1db669152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97453c33748b1df37b7089cff8af3e9') in 0.007822 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001225 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.821 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.7 MB.
+System memory in use after: 67.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1672.
+Total: 3.802200 ms (FindLiveObjects: 0.231900 ms CreateObjectMapping: 0.087900 ms MarkObjects: 3.023800 ms  DeleteObjects: 0.456500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.088253 seconds.
+  path: Assets/_Scripts/Scripts_Enemigos/Disparos_4Cameras
+  artifactKey: Guid(89620fe63c03e784fbf706c8ca4f760e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Enemigos/Disparos_4Cameras using Guid(89620fe63c03e784fbf706c8ca4f760e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae12e26f6b0d91f2e5ec9139aca4cae') in 0.021894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.944734 seconds.
+  path: Assets/_Scripts/Scripts_Enemigos/Disparos_4Cameras/IA_Enemigo_Disparo.cs
+  artifactKey: Guid(a0b2eca173544464d85d28ec70103739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Enemigos/Disparos_4Cameras/IA_Enemigo_Disparo.cs using Guid(a0b2eca173544464d85d28ec70103739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238c89328d415c44881b21bf8b11e403') in 0.016058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.228658 seconds.
+  path: Assets/_Scripts/Scripts_Enemigos/Disparos_4Cameras/IA_Enemigo_Disparo2.cs
+  artifactKey: Guid(5faf172879acf74459d368840a035bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Enemigos/Disparos_4Cameras/IA_Enemigo_Disparo2.cs using Guid(5faf172879acf74459d368840a035bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262e33147af5d0aa3c13dfaee9f19c15') in 0.015490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.688967 seconds.
+  path: Assets/_Scripts/Scripts_Enemigos/Disparos_4Cameras/IA_Enemigo_Disparo3.cs
+  artifactKey: Guid(28edf231637c64a4589374141b54a5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Enemigos/Disparos_4Cameras/IA_Enemigo_Disparo3.cs using Guid(28edf231637c64a4589374141b54a5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb58231cd41221b7d4bfa10dc9396f2') in 0.017573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.483484 seconds.
+  path: Assets/_Scripts/Scripts_Enemigos/Disparos_4Cameras/IA_Enemigo_Disparo4.cs
+  artifactKey: Guid(a764f9d56594af9469d086fdfcd4204c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Enemigos/Disparos_4Cameras/IA_Enemigo_Disparo4.cs using Guid(a764f9d56594af9469d086fdfcd4204c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0476092ac1da45fd77d6ceb4041ebf39') in 0.015206 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001273 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.545 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.7 MB.
+System memory in use after: 67.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1675.
+Total: 3.054800 ms (FindLiveObjects: 0.202500 ms CreateObjectMapping: 0.080700 ms MarkObjects: 2.323200 ms  DeleteObjects: 0.446800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.107723 seconds.
+  path: Assets/_Scripts/Scripts_Enemigos/Disparos_4Cameras/IA_Enemigo_Disparo.cs
+  artifactKey: Guid(a0b2eca173544464d85d28ec70103739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Enemigos/Disparos_4Cameras/IA_Enemigo_Disparo.cs using Guid(a0b2eca173544464d85d28ec70103739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f756b981aa22f774e91bb2eab1bda640') in 0.007654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.579326 seconds.
+  path: Assets/_Scripts/Scripts_Enemigos
+  artifactKey: Guid(15daaf937a1124b429e2f5c40d5d3feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Enemigos using Guid(15daaf937a1124b429e2f5c40d5d3feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27589648e5ca116e61f02b8924e7ed2d') in 0.020094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.555240 seconds.
+  path: Assets/_Scripts/Scripts_Enemigos/RevisarSiExistenPlayers.cs
+  artifactKey: Guid(8b806374243f60340a871ffc966ad8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Enemigos/RevisarSiExistenPlayers.cs using Guid(8b806374243f60340a871ffc966ad8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f750e7853e0a9fd7a569a20b4677ec6') in 0.018563 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001033 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.712 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.7 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1679.
+Total: 2.962700 ms (FindLiveObjects: 0.201000 ms CreateObjectMapping: 0.082100 ms MarkObjects: 2.315900 ms  DeleteObjects: 0.362300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.330595 seconds.
+  path: Assets/_Scripts/Scripts_Enemigos/IA_Enemiga.cs
+  artifactKey: Guid(0dc9edbe4383244458895adb390cbcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Enemigos/IA_Enemiga.cs using Guid(0dc9edbe4383244458895adb390cbcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0aa411d75b6925b7458032c2c91582') in 0.015762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.177597 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs
+  artifactKey: Guid(e0341f35e3124714a8b29fd102231980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs using Guid(e0341f35e3124714a8b29fd102231980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1418c309b700e761bc38fa467c987c') in 0.017629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051294 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab
+  artifactKey: Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab using Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc27fa4d0b98048cb93bd832d152a8c8') in 0.236032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1bf8d3e48764b1220fb762b6afbe47') in 0.245905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d9f72f809d75188ce61fde42154639') in 0.103712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/BarcoFantasma.prefab
+  artifactKey: Guid(4b374d1ee2d546f42825f0a8fc7e5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/BarcoFantasma.prefab using Guid(4b374d1ee2d546f42825f0a8fc7e5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd280d684d87d9bb2344db5c16e45ab') in 0.047583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954b8b1e4b4433a906a10674da19c7d7') in 0.140275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.285786 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/BarcoFantasma.prefab
+  artifactKey: Guid(4b374d1ee2d546f42825f0a8fc7e5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/BarcoFantasma.prefab using Guid(4b374d1ee2d546f42825f0a8fc7e5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c0064b22f11c88d7e68fdd53fa73c5') in 0.029816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.360308 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/BarcoFantasma.prefab
+  artifactKey: Guid(4b374d1ee2d546f42825f0a8fc7e5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/BarcoFantasma.prefab using Guid(4b374d1ee2d546f42825f0a8fc7e5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75aaf2402f1d36d282bbf4d391d1db0') in 0.040560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.415325 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/BarcoFantasma.prefab
+  artifactKey: Guid(4b374d1ee2d546f42825f0a8fc7e5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/BarcoFantasma.prefab using Guid(4b374d1ee2d546f42825f0a8fc7e5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efea9eb3f00df567b2f0d00b728226b') in 0.030521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.421803 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/BarcoFantasma.prefab
+  artifactKey: Guid(4b374d1ee2d546f42825f0a8fc7e5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/BarcoFantasma.prefab using Guid(4b374d1ee2d546f42825f0a8fc7e5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffee9f76e11b7919464f1349b1cab2c') in 0.032099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.367341 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/BarcoFantasma.prefab
+  artifactKey: Guid(4b374d1ee2d546f42825f0a8fc7e5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/BarcoFantasma.prefab using Guid(4b374d1ee2d546f42825f0a8fc7e5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0142d7821d52f08871d49cf61d004bc8') in 0.028503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.049743 seconds.
+  path: Assets/Modelos 3d/Modelo Bomba 1.fbx
+  artifactKey: Guid(878f33af1205e854fa021acf156c6867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos 3d/Modelo Bomba 1.fbx using Guid(878f33af1205e854fa021acf156c6867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535430176af9d7d2193e340da0258376') in 0.108338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Modelos 3d/Modelo Bomba 2.fbx
+  artifactKey: Guid(998c7aa793d88944795457e4a4c32ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos 3d/Modelo Bomba 2.fbx using Guid(998c7aa793d88944795457e4a4c32ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff47eb650cac7748b8e717db9e3e3ea1') in 0.043292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.543277 seconds.
+  path: Assets/__Prefabs/Destruidos_Prefabs/barco 1
+  artifactKey: Guid(26b5aa1e519dc7a4881b175ef82779ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Destruidos_Prefabs/barco 1 using Guid(26b5aa1e519dc7a4881b175ef82779ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3157fb068782ad5753fa7d51c658aa0') in 0.011933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035013 seconds.
+  path: Assets/__Prefabs/Destruidos_Prefabs/barco 1/Barco1Roto.prefab
+  artifactKey: Guid(661ac10beaaa83a47b541eb07cf4197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Destruidos_Prefabs/barco 1/Barco1Roto.prefab using Guid(661ac10beaaa83a47b541eb07cf4197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b0c1f03ca90d9ecaaf81d60ea32ba3') in 0.027471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.372833 seconds.
+  path: Assets/__Prefabs/Destruidos_Prefabs/barco 3/Barco3Roto.prefab
+  artifactKey: Guid(075f5f4e60f04bc428a41d4b05473de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Destruidos_Prefabs/barco 3/Barco3Roto.prefab using Guid(075f5f4e60f04bc428a41d4b05473de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c4b14716689e68fc38f8157787ab17') in 0.127114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.412826 seconds.
+  path: Assets/__Prefabs/Destruidos_Prefabs/barco 4/Barco4Roto.prefab
+  artifactKey: Guid(fb797f17485f410468f708db442d9720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Destruidos_Prefabs/barco 4/Barco4Roto.prefab using Guid(fb797f17485f410468f708db442d9720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4eba21d8b91223f9dd40dfa8b12ac3c') in 0.165397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.738058 seconds.
+  path: Assets/__Prefabs/Destruidos_Prefabs/barco 5/Barco5Roto.prefab
+  artifactKey: Guid(b26a7e9fae554d54bb6176d58bc68f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Destruidos_Prefabs/barco 5/Barco5Roto.prefab using Guid(b26a7e9fae554d54bb6176d58bc68f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87d8a1010e34c4288ade495e8a21d84') in 0.283128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.452107 seconds.
+  path: Assets/__Prefabs/Destruidos_Prefabs/barco_enemigo/BarcoFantasmaDestruido.prefab
+  artifactKey: Guid(a5ce199ef75e18a44945d9620553c0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Destruidos_Prefabs/barco_enemigo/BarcoFantasmaDestruido.prefab using Guid(a5ce199ef75e18a44945d9620553c0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44443babebba5db30c9b96fe3ce1935') in 0.039377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.216458 seconds.
+  path: Assets/__Prefabs/Destruidos_Prefabs/barco_enemigo
+  artifactKey: Guid(94551f13c9b68424699ddf95b4ddcfd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Destruidos_Prefabs/barco_enemigo using Guid(94551f13c9b68424699ddf95b4ddcfd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44dc8b344aa3fd9f0335b8f4d8ed2de0') in 0.011450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.862845 seconds.
+  path: Assets/__Prefabs/Destruidos_Prefabs/Barco1Roto.prefab
+  artifactKey: Guid(661ac10beaaa83a47b541eb07cf4197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Destruidos_Prefabs/Barco1Roto.prefab using Guid(661ac10beaaa83a47b541eb07cf4197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c285d2646a12e01c1573228a810db04b') in 0.021882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.801619 seconds.
+  path: Assets/__Prefabs/Destruidos_Prefabs/Barco3Roto.prefab
+  artifactKey: Guid(075f5f4e60f04bc428a41d4b05473de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Destruidos_Prefabs/Barco3Roto.prefab using Guid(075f5f4e60f04bc428a41d4b05473de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584ea78845c2bb9ba4bbc44ed751ca05') in 0.102953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.027412 seconds.
+  path: Assets/__Prefabs/Destruidos_Prefabs/Barco3Roto.prefab
+  artifactKey: Guid(075f5f4e60f04bc428a41d4b05473de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Destruidos_Prefabs/Barco3Roto.prefab using Guid(075f5f4e60f04bc428a41d4b05473de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec03b03b62a3b1f3dc0364270c9de228') in 0.115791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.382873 seconds.
+  path: Assets/__Prefabs/Destruidos_Prefabs/Barco3Roto.prefab
+  artifactKey: Guid(075f5f4e60f04bc428a41d4b05473de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Destruidos_Prefabs/Barco3Roto.prefab using Guid(075f5f4e60f04bc428a41d4b05473de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174f1aeaa6410d2398b05a2e1d3cefb6') in 0.140357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.956736 seconds.
+  path: Assets/__Prefabs/Destruidos_Prefabs/Barco1Roto.prefab
+  artifactKey: Guid(661ac10beaaa83a47b541eb07cf4197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Destruidos_Prefabs/Barco1Roto.prefab using Guid(661ac10beaaa83a47b541eb07cf4197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c24f2610c9d1bab362d61ef387fd723') in 0.024214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.782025 seconds.
+  path: Assets/Modelos 3d/BarcosRotos_FBX/Barco3Roto.fbx
+  artifactKey: Guid(8bb02670a6d5f0a4da0596070dbfbd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos 3d/BarcosRotos_FBX/Barco3Roto.fbx using Guid(8bb02670a6d5f0a4da0596070dbfbd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575b844e47d1ed9998707158fd4b4438') in 2.997999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.203650 seconds.
+  path: Assets/Modelos 3d/BarcosRotos_FBX/Barco1Roto.fbx
+  artifactKey: Guid(4a38435111050b04d9e5b32b840228c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos 3d/BarcosRotos_FBX/Barco1Roto.fbx using Guid(4a38435111050b04d9e5b32b840228c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3f46faa410b859761d86b4c34c6b71') in 0.354438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.205323 seconds.
+  path: Assets/Modelos 3d/BarcosRotos_FBX/Barco4Roto.fbx
+  artifactKey: Guid(7380f9161d64e9a4897171b9498f8353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos 3d/BarcosRotos_FBX/Barco4Roto.fbx using Guid(7380f9161d64e9a4897171b9498f8353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cf10265d5d11d61fcc03e2a77eef5e') in 4.422722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Modelos 3d/BarcosRotos_FBX/Barco5Roto.fbx
+  artifactKey: Guid(3208b2276f190bb42aaff70469b0b77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos 3d/BarcosRotos_FBX/Barco5Roto.fbx using Guid(3208b2276f190bb42aaff70469b0b77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce2bcc04d84962e75d220d828dfabca') in 8.642148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/__Prefabs/Luz_Prefabs/Lighting.prefab
+  artifactKey: Guid(21c6f167ee5b1ed4ea2ac6f6d6edd3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Luz_Prefabs/Lighting.prefab using Guid(21c6f167ee5b1ed4ea2ac6f6d6edd3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f8b4f76bb7b02212a5e43faa180f2d') in 0.030052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Modelos 3d/BarcosRotos_FBX/BarcoFantasmaDestruido.fbx
+  artifactKey: Guid(66fc944188c65f8418b7a0a264fbb7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos 3d/BarcosRotos_FBX/BarcoFantasmaDestruido.fbx using Guid(66fc944188c65f8418b7a0a264fbb7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c37e2151fdd68765b30d66e1749c82b') in 0.480244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/__Prefabs/PowerUpsPrefabs/4 - InvisiblePowerUp.prefab
+  artifactKey: Guid(6226202ceed1dee4eba528339080e38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/PowerUpsPrefabs/4 - InvisiblePowerUp.prefab using Guid(6226202ceed1dee4eba528339080e38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212db9fec12aa37bd5cce0f2b8f20539') in 0.023956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/__Prefabs/PowerUpsPrefabs/2- ShieldPowerUp.prefab
+  artifactKey: Guid(8226e2aa3326390438c7c7de1c2de4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/PowerUpsPrefabs/2- ShieldPowerUp.prefab using Guid(8226e2aa3326390438c7c7de1c2de4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c86f01cb2f7705ec01d922ad213a66') in 0.021719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/__Prefabs/PowerUpsPrefabs/1 - HealthPowerUp.prefab
+  artifactKey: Guid(a7e6cf2df7a9ccf448683a909a0b7595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/PowerUpsPrefabs/1 - HealthPowerUp.prefab using Guid(a7e6cf2df7a9ccf448683a909a0b7595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c652d4ca9f39dfce7d6223a65f98ed0e') in 0.021622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/__Prefabs/PowerUpsPrefabs/5 - ForceFieldPowerUp.prefab
+  artifactKey: Guid(36dba9e415df6c1409af42135ae99dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/PowerUpsPrefabs/5 - ForceFieldPowerUp.prefab using Guid(36dba9e415df6c1409af42135ae99dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffaa87c0c2bfef6c489ae0000540fdce') in 0.022097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/__Prefabs/PowerUpsPrefabs/3 - SpeedPowerUp.prefab
+  artifactKey: Guid(d6f42744489e48f40b24a5bbc22881b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/PowerUpsPrefabs/3 - SpeedPowerUp.prefab using Guid(d6f42744489e48f40b24a5bbc22881b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886d1dacc1bb52ed7a8fc1cfbe765b96') in 0.021657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.285575 seconds.
+  path: Assets/__Prefabs/Ataques_Prefabs/ForceFieldNew.prefab
+  artifactKey: Guid(3d3bc25054e36d548bda00a9573934e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Ataques_Prefabs/ForceFieldNew.prefab using Guid(3d3bc25054e36d548bda00a9573934e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7acbc41d82dba13447309f1dc1815ed1') in 0.024309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/__Prefabs/Ataques_Prefabs/Modelo Bomba.prefab
+  artifactKey: Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Ataques_Prefabs/Modelo Bomba.prefab using Guid(3076abf7c328f98458ec14464967f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7a228401a0bb5ca22ec9624afc0bab') in 0.027316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.793594 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab
+  artifactKey: Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab using Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6378d8afc82d206915bc305b6c41effc') in 0.025930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5df19ccfc6239ab43c7a23b6a80181') in 0.235953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32248b367bfe89b877c8c521f84e00a') in 0.097714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ec514460e776f17481088873a62d2e') in 0.119321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.193855 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab
+  artifactKey: Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab using Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fcc10521b5a8eae17382fe0a456a94') in 0.028635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a20e1b13a262c561f514b65e65135d') in 0.241845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb5294dc45c4b6766d86a83cdb6d0a9') in 0.086700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0231e84f2a9f59df247aea444f5020') in 0.120190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.884239 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37dfe07b6c2b3bf4dfaf29064ef4115a') in 0.089566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89ba22c4589174ca2bc128e12211c85') in 0.138786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.977633 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83800d1010040dccb3aeee6632d0dba2') in 0.208945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.073410 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9246fa8ed8269f3e817da6221f797898') in 0.122744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.767939 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d463997c89d535d4b187ed4df06a73c') in 0.083130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.124880 seconds.
+  path: Assets/Texturas/Mat_Transparente.mat
+  artifactKey: Guid(26be0a9a4b3fc2744852f225f13398e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Mat_Transparente.mat using Guid(26be0a9a4b3fc2744852f225f13398e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e45b4c1a9fa996bd92fea906af841b') in 0.026475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.698664 seconds.
+  path: Assets/Texturas/PowerUpsTexturas
+  artifactKey: Guid(329b2ca93d03cfd4c8d0bef67f7b12f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/PowerUpsTexturas using Guid(329b2ca93d03cfd4c8d0bef67f7b12f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e967e47f7c5a82a088e3684aa10d589f') in 0.011928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068197 seconds.
+  path: Assets/Texturas/PowerUpsTexturas/AmarilloAmarillo.mat
+  artifactKey: Guid(31c9a9eb5dd38d94a8ed45eee2e44d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/PowerUpsTexturas/AmarilloAmarillo.mat using Guid(31c9a9eb5dd38d94a8ed45eee2e44d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd7c86efea28d28e250d6b09d7c7942') in 0.018868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Texturas/PowerUpsTexturas/ForceField.mat
+  artifactKey: Guid(641e47065ead02642beab0aa4a087749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/PowerUpsTexturas/ForceField.mat using Guid(641e47065ead02642beab0aa4a087749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c03f23417ec92dc37be4b40bb9abc7') in 0.028626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Texturas/PowerUpsTexturas/NegroNegro.mat
+  artifactKey: Guid(a2e6a5569f8208c448314f054ca4c4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/PowerUpsTexturas/NegroNegro.mat using Guid(a2e6a5569f8208c448314f054ca4c4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8768b57f912cd2ed48a34466b87c67') in 0.024797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/Texturas/PowerUpsTexturas/AzulAzul.mat
+  artifactKey: Guid(c15954b6b93c297469633c14e4ebb2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/PowerUpsTexturas/AzulAzul.mat using Guid(c15954b6b93c297469633c14e4ebb2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc2fb5fcf4e076775192390823341b3') in 0.022382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Texturas/PowerUpsTexturas/RojoRojo.mat
+  artifactKey: Guid(7510d3349ff0bce4ebcba0561b9f165b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/PowerUpsTexturas/RojoRojo.mat using Guid(7510d3349ff0bce4ebcba0561b9f165b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009d14f16dbf872396de4933882ff482') in 0.023473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Texturas/PowerUpsTexturas/VerdeVerde.mat
+  artifactKey: Guid(da26a8573468e3d4cb074995e6886647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/PowerUpsTexturas/VerdeVerde.mat using Guid(da26a8573468e3d4cb074995e6886647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd849721e8d109467e2e67dec04e51fd3') in 0.021853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.185203 seconds.
+  path: Assets/___Scenes/Character Selection Menu.unity
+  artifactKey: Guid(d88da844d07162f428e89ef6f1c78bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/___Scenes/Character Selection Menu.unity using Guid(d88da844d07162f428e89ef6f1c78bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74db1a957cd8723198d77efe06c794c3') in 0.012067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.517222 seconds.
+  path: Assets/___Scenes/Escena Prueba.unity
+  artifactKey: Guid(a0ed8296ac36e204080fae82e50cd728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/___Scenes/Escena Prueba.unity using Guid(a0ed8296ac36e204080fae82e50cd728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b66b057032156a2f011d42ecfd309fb') in 0.011459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.185356 seconds.
+  path: Assets/___Scenes/Menu.unity
+  artifactKey: Guid(aff9aaf8d4c68984c9a5334437caafd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/___Scenes/Menu.unity using Guid(aff9aaf8d4c68984c9a5334437caafd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16e63d27cb2adf5ef5b660494d1a5d9') in 0.005850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.883414 seconds.
+  path: Assets/___Scenes/supervivencia.unity
+  artifactKey: Guid(d362bce82ca17cd48a22de307e336f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/___Scenes/supervivencia.unity using Guid(d362bce82ca17cd48a22de307e336f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc826c9bb053ac37ea53e22be7497d09') in 0.012903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.763681 seconds.
+  path: Assets/_Scripts/Scripts_Spawners
+  artifactKey: Guid(6a9c14593d700d24fa5ac1177d48e08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Spawners using Guid(6a9c14593d700d24fa5ac1177d48e08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d99b208f6c9619f702e8cb1601d9682') in 0.011147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.757457 seconds.
+  path: Assets/_Scripts/Scripts_Spawners/Spawns_Enemies.cs
+  artifactKey: Guid(ef213b0a57026654cbc0979d60ffd41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Spawners/Spawns_Enemies.cs using Guid(ef213b0a57026654cbc0979d60ffd41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac45c26552488407d9540703ea90878') in 0.011115 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001321 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.587 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.5 MB.
+System memory in use after: 79.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1726.
+Total: 3.097400 ms (FindLiveObjects: 0.206100 ms CreateObjectMapping: 0.081000 ms MarkObjects: 2.429300 ms  DeleteObjects: 0.378900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 276.877528 seconds.
+  path: Assets/_Scripts/Scripts_Spawners/Spawns_Enemies.cs
+  artifactKey: Guid(ef213b0a57026654cbc0979d60ffd41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Spawners/Spawns_Enemies.cs using Guid(ef213b0a57026654cbc0979d60ffd41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a0fbeb2f060c7803808f9f55e81f4f') in 0.006032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.948247 seconds.
+  path: Assets/_Scripts/Scripts_Variados/togglebarco.cs
+  artifactKey: Guid(aedceacbb8e1cc74493c71042c9bf889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Variados/togglebarco.cs using Guid(aedceacbb8e1cc74493c71042c9bf889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d964e656eb60acd6371a8a9008562c') in 0.011442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.079509 seconds.
+  path: Assets/__Prefabs/Islands_Prefabs/Wood Wall - Vertical.prefab
+  artifactKey: Guid(46a42d730360a854aa7380fa539926d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Islands_Prefabs/Wood Wall - Vertical.prefab using Guid(46a42d730360a854aa7380fa539926d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87875febfde0272b5a986197a307d80') in 0.112268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.530117 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed822b3758f91cea2d16677cc4fbdd7c') in 0.248741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab
+  artifactKey: Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab using Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5753c1f801502a7ed9bec1d3a4baf5a') in 0.042586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382eee06dc4d3eac1b189d6886e5d9f4') in 0.095395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20871ccac185b2f0c2137c3b47e99f04') in 0.140555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.647201 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab
+  artifactKey: Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab using Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f651c74fcb41f1a60bf5dfa0d81253') in 0.032257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.031247 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a684eb23246042917140c8db3b2d37') in 0.091242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62015b149ed2ebcd34e605a951a80b7c') in 0.225684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ee0e0d985c2b5aa3daaca552db6c52') in 0.122145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.225654 seconds.
+  path: Assets/_Scripts/Scripts_Player
+  artifactKey: Guid(89a4af29d360bd64a919c52c8dfe385b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Player using Guid(89a4af29d360bd64a919c52c8dfe385b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fc817cd138cad832c4b1b2bef5cd06') in 0.012535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.952063 seconds.
+  path: Assets/_Scripts/Scripts_Player/PowerUps.cs
+  artifactKey: Guid(9dacb89d89c754e42baa6f99452c5dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Player/PowerUps.cs using Guid(9dacb89d89c754e42baa6f99452c5dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8d51566168bbdafa1fc718f5569b9f') in 0.011956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 123.090320 seconds.
+  path: Assets/_Scripts/Scripts_Player/BetterInvi.cs
+  artifactKey: Guid(90e5c607e3911744e886ec235d70b28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Player/BetterInvi.cs using Guid(90e5c607e3911744e886ec235d70b28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf32dcb28f57e46b5733fd1d9175bb9') in 0.007457 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.563 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.7 MB.
+System memory in use after: 79.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1729.
+Total: 3.343000 ms (FindLiveObjects: 0.296600 ms CreateObjectMapping: 0.089600 ms MarkObjects: 2.512300 ms  DeleteObjects: 0.442900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000932 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.561 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.6 MB.
+System memory in use after: 79.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1732.
+Total: 3.104500 ms (FindLiveObjects: 0.209300 ms CreateObjectMapping: 0.082200 ms MarkObjects: 2.449000 ms  DeleteObjects: 0.362100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.959837 seconds.
+  path: Assets/_Scripts/Scripts_Player/Scripts_Invi/devolvermateriales.cs
+  artifactKey: Guid(db93475172ce1bd47a4a50f444c80455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Player/Scripts_Invi/devolvermateriales.cs using Guid(db93475172ce1bd47a4a50f444c80455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed06bc94f24fcb3c6a4d17e1c2d3200c') in 0.006646 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001059 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.673 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.7 MB.
+System memory in use after: 79.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1735.
+Total: 3.921500 ms (FindLiveObjects: 0.217900 ms CreateObjectMapping: 0.089400 ms MarkObjects: 3.140700 ms  DeleteObjects: 0.468300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001167 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.551 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.6 MB.
+System memory in use after: 79.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1738.
+Total: 3.154700 ms (FindLiveObjects: 0.206600 ms CreateObjectMapping: 0.080000 ms MarkObjects: 2.407100 ms  DeleteObjects: 0.459400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 218.206442 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad91d45aea9cb0031f850257f731497f') in 0.327586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8884a4692552fe4e3d1eaae218ff3eb') in 0.097215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d37d189fef44b4d05ca936a170d083') in 0.140910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.222625 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab
+  artifactKey: Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab using Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed59799efdd9385bd164961baf20f7e') in 0.040885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.915368 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab
+  artifactKey: Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab using Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e406da63591144728b941e04f78aa6a0') in 0.026610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.791458 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab
+  artifactKey: Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab using Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743f05f1bd48d0bd58a3720143910640') in 0.036700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60955a1b5e42643434c2c8a2b0ccb74b') in 0.220742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef34bf4ebf5538cdd71fe8d8bb34e7ce') in 0.090117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafe8d0da150381b32971b7aefb51d2b') in 0.126897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.119659 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f383ebd4e3e8885e14a80e9de91cd7') in 0.110500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de1ccc8a8598aafa5a02cf57fd302f9') in 0.243492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba75f7381eb9e29a0719abd963d84319') in 0.134865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.027596 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8aaf7d8eda2f2afd03ce1a21ecf533') in 0.103602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.615815 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a54e603984adb33970c6cfda258901e') in 0.089225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.732553 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70355ce18afe6d7bfe911f7e8cf7cf40') in 0.102163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.247873 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53124c1a2a11081a5366ac8179dc72f9') in 0.111871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.663770 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46e67b0af9d47910ab86cd92e7fbc56') in 0.102935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.972004 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e678261414b12939cdb047ba0f0f06e') in 0.089775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.665857 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0ed4023e8675845f1cc5793eb81b66') in 0.091173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.382110 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab
+  artifactKey: Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco3.prefab using Guid(18884786cc8725f41b9cb4a00c844a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed6aec6850cd3a33c65263dd5fedf69') in 0.088640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 195.131204 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748cb2e880312fe7d03496a22c941da7') in 0.131315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.507349 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24171b791353b2cc987d3611a0ebf4f8') in 0.133619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.598510 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4960b8c28d8c01f951bfc262d4349dd') in 0.128288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.461805 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f9f7d0ec72d0addd65e032c186d07e') in 0.131553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.037513 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6b311cfddf44c378cd71e87cc08448') in 0.126837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.241906 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1a8f2510df34213264ec418b260e66') in 0.133991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.469161 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f856cae267d436825b74b1e85d61c61') in 0.122461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.223115 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745a21bca58fa7887e88255f528c2feb') in 0.146637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.993559 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f778502c3410fc301540deec4935af0f') in 0.123657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.258606 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc65dd7f6d4790c736447af2033f311') in 0.132644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.349133 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b76807486ddcdc2239d0b482987de4') in 0.127501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.090453 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9d36fa440e01cee65d345579f77c98') in 0.137562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.768352 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5444504fed3d6c5d9b98c92629275ab3') in 0.123928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.804072 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58afcff2f73395a9a25d672f21671022') in 0.140154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.776170 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a1a8b52264f40393f12ada6d967069') in 0.137898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.617557 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab
+  artifactKey: Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco4.prefab using Guid(35b8b57d4c955f14c809d0a6ef986bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1638c9874de274e1b8bf359448389f34') in 0.124864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.258354 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088f3976e1d806cc0ce9e49be6d47fa1') in 0.221854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.812362 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe23907369f77a8ece54cd0ccb8862af') in 0.245808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.697203 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78fbf77b75a335fb60a93bd84887ea8') in 0.233046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.637120 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fc2e6713a72114ba6d0f3cbb9f68ec') in 0.242717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.512878 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be88d5abcfbca6c69b0b1b24c47c5ba2') in 0.226848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.694883 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2271f5a1617435a81b37966a4ca92f2f') in 0.232270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.282142 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f6e436454c7cd64aed207a7b3bfdad') in 0.232466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.951726 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1056d8f2983930ab5a8947e4849fd49e') in 0.234179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.555289 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d12d189fb7f4b346144897ce2733a9d') in 0.231709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.908343 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e8af86334e767dcf2beaa9ee4a1030') in 0.223381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.505159 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1079f6809eb51e2541311316b98eb43') in 0.241067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.873395 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ba9c4bb691b0f4ab510fa832df3b6b') in 0.239393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.600362 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4435b5db3f2e86c1cada65322eb9c2c') in 0.242303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.693064 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab
+  artifactKey: Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco5.prefab using Guid(5dcb4d730ac7bf742bc2c333ad299932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6823c3f308e72029e4d842842e5187') in 0.221675 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001173 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.613 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.7 MB.
+System memory in use after: 79.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1742.
+Total: 3.851900 ms (FindLiveObjects: 0.208300 ms CreateObjectMapping: 0.082800 ms MarkObjects: 3.137300 ms  DeleteObjects: 0.421600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.375356 seconds.
+  path: Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab
+  artifactKey: Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/_Barcos_Prefabs/Barco1.prefab using Guid(a864ba4c21bfaf347aaac3c5d8731e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a3fc05cc5057dc140105e4f283a91b') in 0.129575 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001090 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.592 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.8 MB.
+System memory in use after: 79.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1747.
+Total: 3.409500 ms (FindLiveObjects: 0.205900 ms CreateObjectMapping: 0.083000 ms MarkObjects: 2.500500 ms  DeleteObjects: 0.618600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.100609 seconds.
+  path: Assets/_Scripts/Scripts_Spawners/SpawnPowerUps.cs
+  artifactKey: Guid(ab87ff1196fd3f2498553e24348934ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Spawners/SpawnPowerUps.cs using Guid(ab87ff1196fd3f2498553e24348934ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec79e8ddbd487bfe2eb9a2eff906dc8') in 0.014527 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001188 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.463 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.8 MB.
+System memory in use after: 79.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1750.
+Total: 4.385500 ms (FindLiveObjects: 0.271800 ms CreateObjectMapping: 0.106300 ms MarkObjects: 3.459100 ms  DeleteObjects: 0.546400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.871188 seconds.
+  path: Assets/Texturas/Mat_Transparente.mat
+  artifactKey: Guid(26be0a9a4b3fc2744852f225f13398e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Mat_Transparente.mat using Guid(26be0a9a4b3fc2744852f225f13398e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb06deb54a18408009fe6098133a18c') in 0.096491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.388220 seconds.
+  path: Assets/_Scripts/Scripts_Disparos
+  artifactKey: Guid(a4aa6c78279b06e40b1c6bd9a92df041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Disparos using Guid(a4aa6c78279b06e40b1c6bd9a92df041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397113af81f87f84fcf81ef56d6b96df') in 0.015338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.027135 seconds.
+  path: Assets/_Scripts/Scripts_Variados
+  artifactKey: Guid(0a963823c43a9c94cb482ac6c1c081cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Variados using Guid(0a963823c43a9c94cb482ac6c1c081cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad424de8ffc11664c3984ac2302761d9') in 0.011566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.529988 seconds.
+  path: Assets/_Scripts/Scripts_Player/CrearForceField.cs
+  artifactKey: Guid(85e4ef6e5cab86640b82bff6b361e03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Player/CrearForceField.cs using Guid(85e4ef6e5cab86640b82bff6b361e03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9d3aad8956890cec39a3f00a1e656a') in 0.004051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.498581 seconds.
+  path: Assets/_Scripts/Scripts_Player/ForceField.cs
+  artifactKey: Guid(3d684de07f1375848a160f8a89a07c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Scripts_Player/ForceField.cs using Guid(3d684de07f1375848a160f8a89a07c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26c64dff550b929966500182ad15151') in 0.004233 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001152 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.530 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.8 MB.
+System memory in use after: 79.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1754.
+Total: 3.447000 ms (FindLiveObjects: 0.224100 ms CreateObjectMapping: 0.094800 ms MarkObjects: 2.681100 ms  DeleteObjects: 0.444900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.965558 seconds.
+  path: Assets/__Prefabs/Destruidos_Prefabs/Barco4Roto.prefab
+  artifactKey: Guid(fb797f17485f410468f708db442d9720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Destruidos_Prefabs/Barco4Roto.prefab using Guid(fb797f17485f410468f708db442d9720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980a77e70ecd6fcc9f8ca48d51f4a7b8') in 0.231767 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000975 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.585 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.8 MB.
+System memory in use after: 79.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1758.
+Total: 2.973400 ms (FindLiveObjects: 0.209000 ms CreateObjectMapping: 0.085200 ms MarkObjects: 2.298300 ms  DeleteObjects: 0.379200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.169505 seconds.
+  path: Assets/__Prefabs/Destruidos_Prefabs/Barco1Roto.prefab
+  artifactKey: Guid(661ac10beaaa83a47b541eb07cf4197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Destruidos_Prefabs/Barco1Roto.prefab using Guid(661ac10beaaa83a47b541eb07cf4197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7162233c5c7180c87f8e9806cc4b36dc') in 0.102274 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001216 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.488 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.9 MB.
+System memory in use after: 79.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1762.
+Total: 3.391600 ms (FindLiveObjects: 0.223700 ms CreateObjectMapping: 0.091500 ms MarkObjects: 2.655300 ms  DeleteObjects: 0.419400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.289956 seconds.
+  path: Assets/__Prefabs/Destruidos_Prefabs/Barco1Roto.prefab
+  artifactKey: Guid(661ac10beaaa83a47b541eb07cf4197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Destruidos_Prefabs/Barco1Roto.prefab using Guid(661ac10beaaa83a47b541eb07cf4197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81caf3761fa119b94dfda0f74ccea54f') in 0.106523 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001349 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.773 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.9 MB.
+System memory in use after: 79.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1766.
+Total: 3.274700 ms (FindLiveObjects: 0.244400 ms CreateObjectMapping: 0.092100 ms MarkObjects: 2.515200 ms  DeleteObjects: 0.421300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.826640 seconds.
+  path: Assets/__Prefabs/Destruidos_Prefabs/Barco1Roto.prefab
+  artifactKey: Guid(661ac10beaaa83a47b541eb07cf4197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__Prefabs/Destruidos_Prefabs/Barco1Roto.prefab using Guid(661ac10beaaa83a47b541eb07cf4197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65183ba71c644721bfe73e380f586d7') in 0.127007 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001119 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.542 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.9 MB.
+System memory in use after: 79.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1770.
+Total: 3.136200 ms (FindLiveObjects: 0.214400 ms CreateObjectMapping: 0.082500 ms MarkObjects: 2.411700 ms  DeleteObjects: 0.425900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

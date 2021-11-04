@@ -60,6 +60,9 @@ if (this.gameObject.tag == "Player")
 {
 if ((other.gameObject.tag == "BulletPlayer2") || (other.gameObject.tag == "BulletPlayer3") || (other.gameObject.tag == "BulletPlayer4") || (other.gameObject.tag == "EnemyBullet"))
 {
+
+                    FindObjectOfType<AudioManager>().Play("Hit");
+
 if (escudo == 0) {
 RestarVida(DamageBullet);
  }

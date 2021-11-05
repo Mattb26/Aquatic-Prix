@@ -15,6 +15,7 @@ public Transform destroyedVersion;
      public int DamageIsland;
     public int DamageBullet;
     public int DamageMissile;
+    public int DamageTurtle = 100000;
 
      
     public Image barravida;
@@ -124,12 +125,29 @@ RestarVida(DamageIsland);
 }
  }
 
+if (other.gameObject.tag == "Turtle")
+ {
+if (escudo == 0)
+{
+RestarVida(DamageTurtle);
+ }
+     if ((DamageTurtle > escudo && escudo > 0))     
+     {
+           float NewEscudo = 0;
+           NewEscudo = DamageTurtle - escudo;
+           RestarVida(NewEscudo);
+           escudo = 0;
+           NewEscudo = 0;
+     }
+    else if (DamageTurtle <= escudo)
+{ 
+    RestarEscudo(DamageTurtle);
+}
+ }
 
+            /////
 
-
-/////
-
-if (this.gameObject.tag == "Player2")
+            if (this.gameObject.tag == "Player2")
 {
 if ((other.gameObject.tag == "BulletPlayer1") || (other.gameObject.tag == "BulletPlayer3") || (other.gameObject.tag == "BulletPlayer4") || (other.gameObject.tag == "EnemyBullet"))
 {

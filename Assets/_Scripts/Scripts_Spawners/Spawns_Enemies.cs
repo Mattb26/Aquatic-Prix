@@ -17,6 +17,7 @@ public class Spawns_Enemies : MonoBehaviour
     public int tiempoSpawn = 1;
     public GameObject TheNewParent;
     private Enemy_Life enemyylifee;
+
 [HideInInspector]
 public float a = 0;
 
@@ -29,6 +30,7 @@ public float a = 0;
         // Invokerepeating(nombre de la accion, tiempo inicial, cada cuanto se repite
         InvokeRepeating("spawn", 5, tiempoSpawn);
        enemyylifee = enemigo.GetComponent<Enemy_Life>();
+
         //GenerarEnemigos(3);
        
 
@@ -47,7 +49,18 @@ public float a = 0;
             if (a > 0)
             {
                 enemyylifee.vida = enemyylifee.vida * 2;
+                
                 print("Enemigos, Vida x2");
+                a = 0;
+            }
+        }
+        if (oleada > 30)
+        {
+            if (a > 0)
+            {
+                enemyylifee.escudo = enemyylifee.escudo + 5;
+
+                print("Enemigos, Mas escudo");
                 a = 0;
             }
         }

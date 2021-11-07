@@ -38,6 +38,7 @@ public Transform destroyedVersion;
        if (vida == 0)
        {
            GetComponent<Rigidbody>().AddExplosionForce(50, transform.position, 55);
+           Camera.main.transform.parent=null;
            Destroy(this.gameObject, 0f);
            Instantiate(destroyedVersion, transform.position, transform.rotation);
            

@@ -26,18 +26,27 @@ using System.Collections;
  
          Vector3 center = new Vector3(0f, 0.5f, 0f);
          RaycastHit hit;
- 
-         private void Start()
+         
+
+
+         public void Start()
          {
              if (lockCursor)
              {
                  Cursor.lockState = CursorLockMode.Locked;
                  Cursor.visible = false;
              }
+             
+             
+             
          }   
  
          void Update()
          {
+
+
+
+             
              yaw += Input.GetAxis("Mouse X") * mouseSensitivity;
              pitch -= Input.GetAxis("Mouse Y") * mouseSensitivity;
              pitch = Mathf.Clamp(pitch, minPitch, maxPitch);
@@ -62,6 +71,28 @@ using System.Collections;
                  //wantedPosition.y = wantedPosition.y);
              }
  
+
+
              transform.position = wantedCameraPosition;
-         }
-     }
+
+             if (GameObject.FindGameObjectWithTag("Pausa").activeInHierarchy) 
+{
+Cursor.lockState = CursorLockMode.None;
+Cursor.visible = true;
+}
+if (GameObject.FindGameObjectWithTag("Pausa").activeInHierarchy == false)
+{
+    Cursor.lockState = CursorLockMode.Locked;
+Cursor.visible = false;
+}
+
+             
+
+
+             }
+
+
+}
+             
+
+     

@@ -11,6 +11,7 @@ public class Laps : MonoBehaviour
     public static int currentLap = 0;
     public Vector3 startPos;
     public int Lap;
+    public GameObject menuUI;
 
     void Start()
     {
@@ -24,6 +25,16 @@ public class Laps : MonoBehaviour
     {
         Lap = currentLap;
         checkpointA = checkPointArray;
+        victoria();
     }
 
+    void victoria()
+    {
+        if (Lap >= 3)
+        {
+            menuUI.SetActive(true);
+            Time.timeScale = 0f;
+        }
+
+    }
 }

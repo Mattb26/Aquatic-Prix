@@ -22,16 +22,9 @@ public class GameControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.Escape))
-        //{
-        //    ReturnToMainMenu();
-        //}
+   
     }
 
-    //public void ReturnToMainMenu()
-    //{
-    //    SceneManager.LoadScene(menuScene);
 
-    //}
 
 }

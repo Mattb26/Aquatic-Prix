@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class Menu_Controller : MonoBehaviour {
 
 	[Tooltip("_sceneToLoadOnPlay is the name of the scene that will be loaded when users click play")]
-	public string _sceneToLoadOnPlay = "Level";
+	public string _sceneToLoadOnPlay = "Character Selection Menu - Supervivencia";
+	public string _sceneToLoadOnPlay2 = "Character Selection Menu - Carrera";
 	[Tooltip("_webpageURL defines the URL that will be opened when users click on your branding icon")]
 	public string _webpageURL = "http://www.alpaca.studio";
 	[Tooltip("_soundButtons define the SoundOn[0] and SoundOff[1] Button objects.")]
@@ -40,7 +41,13 @@ public class Menu_Controller : MonoBehaviour {
 		PlayerPrefs.SetString("_LastScene", scene.name);
 		UnityEngine.SceneManagement.SceneManager.LoadScene(_sceneToLoadOnPlay);
 	}
-	
+	public void PlayGame2()
+	{
+		_audioSource.PlayOneShot(_audioClip);
+		PlayerPrefs.SetString("_LastScene", scene.name);
+		UnityEngine.SceneManagement.SceneManager.LoadScene(_sceneToLoadOnPlay2);
+	}
+
 	public void Mute () {
 		_audioSource.PlayOneShot(_audioClip);
 		_soundButtons[0].interactable = true;

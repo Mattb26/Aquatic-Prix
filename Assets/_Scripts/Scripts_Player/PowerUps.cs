@@ -86,6 +86,7 @@ void OnTriggerEnter(Collider other)
 {
 if (other.tag == "HealthPowerUp")
 {      
+        FindObjectOfType<AudioManager>().Play("Powerup");
         Destroy(other.gameObject);
         lifee_And_Damage.vida = lifee_And_Damage.vida + CantidadCuracion;
         
@@ -99,6 +100,7 @@ if (other.tag == "HealthPowerUp")
 
 if (other.tag == "ShieldPowerUp")
 {
+        FindObjectOfType<AudioManager>().Play("Powerup");
         Destroy(other.gameObject);
         lifee_And_Damage.escudo = lifee_And_Damage.escudo + CantidadEscudo;
         
@@ -112,6 +114,7 @@ if (other.tag == "ShieldPowerUp")
 
 if (other.tag == "SpeedPowerUp")
 {   
+    
     simpleeMovee.BoostTimer = 0;
     simpleeMovee.DuracionSpeedPowerUp = DuracionVelocidad;
     simpleeMovee.IncrementoVelocidad = IncrementoVelocidad;
@@ -119,14 +122,14 @@ if (other.tag == "SpeedPowerUp")
     simpleeMovee.velocidadNormal = simpleeMovee.velocidadNormal * IncrementoVelocidad;
     
     simpleeMovee.boosting = true;
-    
+    FindObjectOfType<AudioManager>().Play("Powerup");
     Destroy(other.gameObject);
 
 }
 
 if (other.tag == "InvisiblePowerUp")
 {
-        
+        FindObjectOfType<AudioManager>().Play("Powerup");
         Destroy(other.gameObject);
 
                 devo.tiempoDuracion = DuracionInvisible;
@@ -142,6 +145,7 @@ if (other.tag == "InvisiblePowerUp")
 
 if (other.tag == "ForceFieldPowerUp")
 {       
+        FindObjectOfType<AudioManager>().Play("Powerup");
         Destroy(other.gameObject);
         forcefild.starty2();
 

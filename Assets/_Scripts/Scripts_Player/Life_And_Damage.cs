@@ -37,6 +37,7 @@ public Transform destroyedVersion;
       //  invulnerable = GetComponent<Invulnerable>();
        if (vida == 0)
        {
+           FindObjectOfType<AudioManager>().Play("Destruccionbarco");
            GetComponent<Rigidbody>().AddExplosionForce(50, transform.position, 55);
            Camera.main.transform.parent=null;
            Destroy(this.gameObject, 0f);
@@ -67,6 +68,7 @@ if (this.gameObject.tag == "Player")
 {
 if ((other.gameObject.tag == "BulletPlayer2") || (other.gameObject.tag == "BulletPlayer3") || (other.gameObject.tag == "BulletPlayer4") || (other.gameObject.tag == "EnemyBullet"))
 {
+FindObjectOfType<AudioManager>().Play("Golpeabarco");    
 if (escudo == 0) {
 RestarVida(DamageBullet);
  }

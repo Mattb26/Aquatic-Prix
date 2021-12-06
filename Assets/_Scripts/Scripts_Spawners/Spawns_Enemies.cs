@@ -14,7 +14,7 @@ public class Spawns_Enemies : MonoBehaviour
     public int dead_enemy = 0;
     public int enemigosAGenerar = 3;
     public int oleada = 1;
-    public int tiempoSpawn = 1;
+    public int tiempoSpawn = 3;
     public GameObject TheNewParent;
     private Enemy_Life enemyylifee;
 
@@ -22,6 +22,8 @@ public class Spawns_Enemies : MonoBehaviour
 public float a = 0;
 
 
+private SupervivenciaPuntaje GameControlador;
+private EnemigosPuntaje GameControlador2;
 
 
     // Start is called before the first frame update
@@ -30,7 +32,8 @@ public float a = 0;
         // Invokerepeating(nombre de la accion, tiempo inicial, cada cuanto se repite
         InvokeRepeating("spawn", 5, tiempoSpawn);
        enemyylifee = enemigo.GetComponent<Enemy_Life>();
-
+        InvokeRepeating("spawn2", 1, 1);
+      InvokeRepeating("spawn3", 1, 1);
         //GenerarEnemigos(3);
        
 
@@ -38,10 +41,17 @@ public float a = 0;
     void Awake()
     {
 
+
     }
     // Update is called once per frame
     void Update()
     {
+        
+
+//GameControlador.b = dead_enemy;
+//GameControlador.c = n_enemigos;
+//GameControlador.d = tiempoSpawn;
+
         
         oleadas();
         if (oleada == 5 || oleada == 15 || oleada == 30)
@@ -69,7 +79,7 @@ public float a = 0;
 
 
     }
-    void spawn()
+    public void spawn()
     {
         //int i = Random.Range(0, 4);
         //Instantiate(enemigo, spawn_point[i].position, transform.rotation);
@@ -85,11 +95,22 @@ public float a = 0;
             //Instantiate(enemigo, spawn_point.position, transform.rotation);
             print("Enemigo Generado");
             n_enemigos = n_enemigos + 1;
+           // GameControlador = GameObject.Find("Texto1").
+            
         }
-        
+    }
 
+        public void spawn2()
+    {
+       GameControlador = GameObject.Find("Texto1").GetComponent<SupervivenciaPuntaje>();
+            GameControlador.oleadanumero = oleada;
 
-        
+    }
+
+    public void spawn3()
+    {
+       GameControlador2 = GameObject.Find("Texto2").GetComponent<EnemigosPuntaje>();
+            GameControlador2.enemigosadestruir = (n_enemigos - dead_enemy);
 
     }
 
